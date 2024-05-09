@@ -1,0 +1,49 @@
+.banner{
+    height: 40vh ;
+    width: 90vw;
+    margin: 10vh 5vw;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.right{
+    text-align: center;
+    padding: 10vh;
+    padding-left: 20vh;
+    filter: drop-shadow(10px 10px 20px rgb(50, 50, 50));
+}
+.img{
+    background-image: url(../Images/istockphoto-1336832660-612x612-removebg-preview.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 40vw;
+    filter: drop-shadow(10px 10px 20px rgb(50, 50, 50));
+}
+
+.Imgslide{
+    height: 70vh ;
+    width: 70vw;
+    margin: 10vh 15vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Interactive{
+    text-align: center;
+}
+.pic {
+    height: 30vh;
+    width: 20vw;
+    border: 2px solid rgb(6, 6, 6);
+    transition: all 0.2s ease-in-out; 
+
+}
+  
+.pic:hover {
+    height: 40vh;
+    width: 30vw;
+    margin: 10px;
+    box-shadow: 10px 10px rgb(67, 64, 64);
+    z-index: 1;
+}
+  

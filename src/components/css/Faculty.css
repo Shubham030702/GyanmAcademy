@@ -1,0 +1,23 @@
+.top{
+    height: 10vh;
+    width: 80vw;
+    margin: 5vh 10vw;
+    text-align: center;
+}
+.information{
+    height: 30vh;
+    margin: 2vh 5vw;
+    width: 90vw;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.left{
+    border: 2px solid red;
+    border-radius: 100%;
+    width: 25vh;
+    height: 25vh;
+    position: relative;
+    right: 0;
+    background: url();
+}

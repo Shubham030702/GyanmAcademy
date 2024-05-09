@@ -1,0 +1,80 @@
+form {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cls{
+    display: flex;
+    justify-content: center;
+
+}
+
+.chk{
+    display: inline;
+}
+
+label[class^="class"] {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#detailsCheckbox {
+    margin-bottom: 15px;
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    label {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    label[class^="class"] {
+        display: block;
+        margin-bottom: 8px;
+    }
+}
