@@ -8,8 +8,8 @@
 
 .right {
     text-align: center;
-    padding: 10vh;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1vh;
 }
 
 .Imgslide {
@@ -71,4 +71,57 @@
 
 .pic6 {
     background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.homesubjects {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin: 5vh auto;
+    height: 50vh;
+    width: 70vw;
+}
+
+.physics,
+.chemistry,
+.maths,
+.bio,
+.science {
+    height: 7vh;
+    width: 70vw;
+    margin: auto;
+    background: #ffffffa0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.physics:hover,
+.chemistry:hover,
+.maths:hover,
+.bio:hover,
+.science:hover {
+    background: #49484862;
+    cursor: pointer;
+}
+
+.physics h2,
+.chemistry h2,
+.maths h2,
+.bio h2,
+.science h2 {
+    font-size: 27px;
+    margin-left: 2vw;
+    margin-top: 8px;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 700;
+}
+
+span {
+    margin: 0 2vw;
+    font-size: 23px;
+}
+
+.boards b {
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 700;
 }
