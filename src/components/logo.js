@@ -1,12 +1,16 @@
 import React from 'react'
-function logo() {
+import "./css/logo.css"
+function Logo() {
     return (
         <>
-            <div className="logo">
-                <img src="./Images/logo-no-background.png" alt="" />
+            <div className="head">
+                <div className="sun"></div>
+                <div className="logo">
+                </div>
+                <div className="moon"></div>
             </div>
         </>
     )
 }
 
-export default logo
+export default Logo
