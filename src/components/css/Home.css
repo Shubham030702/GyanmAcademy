@@ -12,6 +12,10 @@
     padding: 1vh;
 }
 
+.right h3 {
+    font-size: 1.5rem;
+}
+
 .Imgslide {
     height: 70vh;
     width: 70vw;
@@ -23,10 +27,12 @@
 .Interactive {
     text-align: center;
     font-family: "Advent Pro", sans-serif;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
     width: 70vw;
     margin: auto;
+    background-color: rgba(94, 31, 31, 0.523);
+    color: white;
 }
 
 .pic {
@@ -93,6 +99,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s ease;
 }
 
 .physics:hover,
@@ -100,8 +107,9 @@
 .maths:hover,
 .bio:hover,
 .science:hover {
-    background: #49484862;
+    background: #2f2e2e9f;
     cursor: pointer;
+    color: white;
 }
 
 .physics h2,

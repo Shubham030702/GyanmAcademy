@@ -14,7 +14,7 @@
 }
 
 .left {
-    border: 2px solid red;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 100%;
     width: 25vh;
     height: 25vh;
@@ -38,8 +38,15 @@
 .i1:hover,
 .i2:hover,
 .i3:hover,
-.i4:hover {
+.i4:hover,
+.i5:hover{
     background: #3e414180;
     color: white;
     cursor: pointer;
+}
+
+.i5 .left{
+    background-image: url("../Images/IMG20231228151807_01.jpg");
+    background-position: center;
+    background-size: cover;
 }

@@ -14,7 +14,7 @@ function Home() {
                         Within our halls, you'll find more than classrooms and textbooks; you'll discover a thriving ecosystem of ideas, innovation, and inspiration. Each day is an opportunity to engage with diverse perspectives, challenge conventional wisdom, and foster intellectual curiosity.
                         <br />
                         <br />
-                        <div className="messagefromeducators">- Educators.</div>
+                        <div className="messagefromeducators">~Educators.</div>
                     </h3>
                 </div>
             </div>

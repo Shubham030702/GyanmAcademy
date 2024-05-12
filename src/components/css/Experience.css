@@ -1,20 +1,32 @@
-.experience{
+.experience {
+    text-align: center;
+    font-family: "Advent Pro", sans-serif;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 70vw;
+    margin: 3vh auto;
+    background-color: rgba(94, 31, 31, 0.523);
+    color: white;
+}
+
+.experience h1 {
+    font-family: "Advent Pro", sans-serif;
+    margin: 1.5vh;
+}
+
+.More {
     height: 10vh;
     width: 80vw;
     margin: 5vh 10vw;
     text-align: center;
 }
-.More{
-    height: 10vh;
-    width: 80vw;
-    margin: 5vh 10vw;
-    text-align: center;
-}
-.carousel{
+
+.carousel {
     height: 60vh;
     width: 60vw;
-    margin: 5vh 20vw;
+    margin: 5vh 10vw;
     text-align: center;
     background-color: black;
     color: aliceblue;
+    overflow: hidden;
 }

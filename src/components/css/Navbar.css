@@ -6,12 +6,13 @@
     border-bottom: 2px solid black;
     display: flex;
     align-items: center;
+    background: #f5deb385;
 }
 
 .navbar li {
     list-style: none;
     font-size: 20px;
-    font-family: "Advent Pro", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     text-transform: uppercase;
 }

@@ -20,7 +20,7 @@ function StudentForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitted(!submitted);
     console.log(formData);
   };
 
@@ -28,7 +28,10 @@ function StudentForm() {
     <div>
       <h2>Student Information Form</h2>
       {submitted ? (
+        <div>
         <p>Thank you for submitting the form. We will contact you soon!</p>
+        <input type="button" onClick={handleSubmit}/>
+        </div>
       ) : (
         <form onSubmit={handleSubmit}>
           <label htmlFor="fullName">Full Name:</label>
