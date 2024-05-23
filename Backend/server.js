@@ -19,8 +19,14 @@ db.once('open', () => {
 
 app.post('/api/register', async (req, res) => {
     try {
-        const { fullName, schoolName, Class, subject } = req.body;
-        const newUser = new User({ fullName, schoolName, class:Class, subject });
+        const { fullName, schoolName, Class, subject, Parents_phone,
+            Personal_phone,
+            Personal_Address } = req.body;
+        const newUser = new User({
+            fullName, schoolName, class: Class, subject, parentPhone: Parents_phone,
+            personalPhone: Personal_phone,
+            Address: Personal_Address
+        });
         await newUser.save();
         res.status(201).send('User registered successfully');
     } catch (error) {
