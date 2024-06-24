@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body.night {
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url("./components/Images/hand-drawn-science-education-background-theme/cartoon-math-background/2347520.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(75%);
+  }
+  
+  .content {
+    position: relative;
+    top: 0;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    background-color: #ffffff89;
+  }
+  
+  .header{
+    position: sticky;
+    margin-top: 3vh;
+    z-index: 2;
+  }

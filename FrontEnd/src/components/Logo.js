@@ -1,13 +1,13 @@
 import React from 'react'
 import "./css/logo.css"
-function Logo() {
+function Logo({toggleTheme}) {
     return (
         <>
             <div className="head">
-                <div className="sun"></div>
+                <div className="sun" title='Day Mode' id='change_Theme' onClick={()=>toggleTheme("day")}></div>
                 <div className="logo">
                 </div>
-                <div className="moon"></div>
+                <div className="moon" title='Night Mode' id='change_Theme' onClick={()=>toggleTheme("night")}></div>
             </div>
         </>
     )

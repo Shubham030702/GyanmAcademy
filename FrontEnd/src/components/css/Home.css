@@ -25,7 +25,9 @@
 }
 
 .Interactive {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Advent Pro", sans-serif;
     border-top: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -33,6 +35,10 @@
     margin: auto;
     background-color: rgba(94, 31, 31, 0.523);
     color: white;
+}
+
+.Interactive h1{
+    margin: auto;
 }
 
 .pic {
