@@ -1,3 +1,4 @@
+
 .faculty {
     margin-top: 10vh;
 }
@@ -24,28 +25,92 @@
     margin-left: 10vh;
 }
 
+.right {
+    margin-top: 3vh;
+}
+
 .right b {
     font-size: 24px;
     font-family: "Advent Pro", sans-serif;
     margin-top: 2vh;
 }
 
-.right {
-    margin-top: 3vh;
-}
-
 .i1:hover,
 .i2:hover,
 .i3:hover,
 .i4:hover,
-.i5:hover{
+.i5:hover {
     background: #3e414180;
     color: white;
     cursor: pointer;
 }
 
-.i5 .left{
+.i5 .left {
     background-image: url("../Images/IMG20231228151807_01.jpg");
     background-position: center;
     background-size: cover;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .information {
+        height: 35vh;
+        margin: 3vh 4vw;
+        width: 80vw;
+        grid-template-columns: 35% 65%;
+    }
+
+    .left {
+        width: 22vh;
+        height: 22vh;
+        margin-left: 5vh;
+    }
+
+    .right b {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .information {
+        height: 32vh;
+        margin: 3vh 3vw;
+        width: 75vw;
+        grid-template-columns: 30% 70%;
+    }
+
+    .left {
+        width: 24vh;
+        height: 24vh;
+        margin-left: 7vh;
+    }
+
+    .right b {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .information {
+        height: auto;
+        margin: 3vh 3vw;
+        width: 90vw;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        text-align: center;
+    }
+
+    .left {
+        width: 20vh;
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right {
+        margin-top: 2vh;
+    }
+
+    .right b {
+        font-size: 20px;
+    }
 }

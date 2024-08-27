@@ -1,3 +1,4 @@
+/* Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -25,8 +26,53 @@ body.day {
   background-color: #ffffff89;
 }
 
-.header{
+.header {
   position: sticky;
   margin-top: 3vh;
   z-index: 2;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  body.day {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .content {
+    width: 85vw;
+    margin-top: 2vh;
+  }
+
+  .header {
+    margin-top: 2vh;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  body.day {
+    background-position: center;
+    background-size: contain;
+  }
+
+  .content {
+    width: 75vw;
+    margin-top: 3vh;
+  }
+
+  .header {
+    margin-top: 3vh;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  body.day {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .content {
+    width: 100vw;
+    padding: 10px;
+  }
+
 }

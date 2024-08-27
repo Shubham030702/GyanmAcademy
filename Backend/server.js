@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
-const User = require('./models/users')
+const registered = require('./models/users')
 
 const app = express();
 app.use(cors());
@@ -22,7 +22,7 @@ app.post('/api/register', async (req, res) => {
         const { fullName, schoolName, Class, subject, Parents_phone,
             Personal_phone,
             Personal_Address } = req.body;
-        const newUser = new User({
+        const newUser = new registered({
             fullName, schoolName, class: Class, subject, parentPhone: Parents_phone,
             personalPhone: Personal_phone,
             Address: Personal_Address

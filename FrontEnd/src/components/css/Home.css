@@ -1,3 +1,4 @@
+
 .banner {
     height: 40vh;
     width: 70vw;
@@ -37,7 +38,7 @@
     color: white;
 }
 
-.Interactive h1{
+.Interactive h1 {
     margin: auto;
 }
 
@@ -65,23 +66,7 @@
     background-image: url("../Images/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
 }
 
-.pic2 {
-    background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-
-.pic3 {
-    background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-
-.pic4 {
-    background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-
-.pic5 {
-    background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
-
-.pic6 {
+.pic2, .pic3, .pic4, .pic5, .pic6 {
     background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
@@ -93,11 +78,7 @@
     width: 70vw;
 }
 
-.physics,
-.chemistry,
-.maths,
-.bio,
-.science {
+.physics, .chemistry, .maths, .bio, .science {
     height: 7vh;
     width: 70vw;
     margin: auto;
@@ -108,21 +89,13 @@
     transition: 0.2s ease;
 }
 
-.physics:hover,
-.chemistry:hover,
-.maths:hover,
-.bio:hover,
-.science:hover {
+.physics:hover, .chemistry:hover, .maths:hover, .bio:hover, .science:hover {
     background: #2f2e2e9f;
     cursor: pointer;
     color: white;
 }
 
-.physics h2,
-.chemistry h2,
-.maths h2,
-.bio h2,
-.science h2 {
+.physics h2, .chemistry h2, .maths h2, .bio h2, .science h2 {
     font-size: 27px;
     margin-left: 2vw;
     margin-top: 8px;
@@ -138,4 +111,154 @@ span {
 .boards b {
     font-family: "Advent Pro", sans-serif;
     font-weight: 700;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .banner {
+        height: 40vh;
+        width: 70vw;
+        margin: 0vh 0vw;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .banner, .Imgslide, .Interactive, .homesubjects {
+        width: 85vw;
+    }
+
+    .banner {
+        margin: 5vh 7.5vw;
+        height: 35vh;
+    }
+
+    .Imgslide {
+        height: 60vh;
+    }
+
+    .pic {
+        height: 25vh;
+        width: 25vw;
+    }
+
+    .homesubjects {
+        height: 60vh;
+    }
+
+    .physics, .chemistry, .maths, .bio, .science {
+        height: 10vh;
+    }
+
+    .physics h2, .chemistry h2, .maths h2, .bio h2, .science h2 {
+        font-size: 24px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .banner, .Imgslide, .Interactive, .homesubjects {
+        width: 80vw;
+    }
+
+    .banner {
+        height: 40vh;
+        width: 70vw;
+        margin: 0vh 0vw;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .Imgslide {
+        height: 65vh;
+    }
+
+    .pic {
+        height: 28vh;
+        width: 22vw;
+    }
+
+    .homesubjects {
+        height: 55vh;
+    }
+
+    .physics, .chemistry, .maths, .bio, .science {
+        height: 8vh;
+    }
+
+    .physics h2, .chemistry h2, .maths h2, .bio h2, .science h2 {
+        font-size: 26px;
+    }
+
+    span {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .banner, .Imgslide, .Interactive, .homesubjects {
+        width: 95vw;
+    }
+
+    .banner {
+        height: 40vh;
+        width: 93vw;
+        margin: 0vh 0vw;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .right h3 {
+        font-size: 1.2rem;
+    }
+
+    .Imgslide {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .pic {
+        height: 20vh;
+        width: 90vw;
+        margin: 2vh 0;
+    }
+
+    .homesubjects {
+        grid-template-rows: auto;
+        height: auto;
+    }
+
+    .physics, .chemistry, .maths, .bio, .science {
+        height: 17vh;
+        width: 94vw;
+        margin: auto;
+        background: #ffffffa0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s ease;
+    }
+    .pic{
+        margin: 2vh auto;
+    }
+    .physics h2, .chemistry h2, .maths h2, .bio h2, .science h2 {
+        font-size: 17px;
+        margin-top: 0;
+    }
+
+    
+    .Imgslide {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin: 5vh auto;
+    }
+
+    .boards{
+        font-size: 16px;
+    }
+    span {
+        font-size: 18px;
+    }
 }
