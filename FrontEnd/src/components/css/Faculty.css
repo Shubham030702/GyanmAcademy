@@ -39,13 +39,20 @@
 .i2:hover,
 .i3:hover,
 .i4:hover,
-.i5:hover {
+.i5:hover ,
+.i6:hover {
     background: #3e414180;
     color: white;
     cursor: pointer;
 }
 
-.i5 .left {
+.i1 .left,.i2 .left,.i3 .left,.i4 .left,.i5 .left{
+    background-image: url("../Images/good-pic-300x286.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.i6 .left {
     background-image: url("../Images/IMG20231228151807_01.jpg");
     background-position: center;
     background-size: cover;

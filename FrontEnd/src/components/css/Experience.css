@@ -14,21 +14,19 @@
     margin: 1.5vh;
 }
 
-.More {
-    height: 10vh;
-    width: 80vw;
-    margin: 5vh 10vw;
-    text-align: center;
-}
-
 .carousel {
-    height: 60vh;
-    width: 60vw;
-    margin: 5vh 10vw;
+    height: 65vh;
+    width: 50vw;
+    margin: 5vh auto;
     text-align: center;
     background-color: black;
     color: aliceblue;
     overflow: hidden;
+}
+
+.container p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {

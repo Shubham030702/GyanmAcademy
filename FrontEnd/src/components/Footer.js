@@ -13,7 +13,7 @@ function Footer() {
           Near NIT srinagar garhwal<br/>
           Srinagar, Uttarakhand<br/>
           Phone: 9557121439<br/>
-          Email: info@academy.com
+          Email: amituniyal10@gmail.com
         </p>
       </div>
       <div className="col-md-4">

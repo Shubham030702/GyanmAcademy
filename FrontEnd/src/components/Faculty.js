@@ -51,6 +51,17 @@ function Faculty() {
 
                     </div>
                     <div className="right">
+                        <b>Faculty Name:</b> <span>Chandra Prakash</span><br />
+                        <b>Teaches:</b> <span>Chemistry</span><br />
+                        <b>Higher Qualifications:</b> <span>M.Sc(Chemistry)</span><br />
+                        <b>Experience:</b> <span>2+ Years of Teaching Experience.</span><br />          
+                      </div>
+                </div>
+                <div className="information i6">
+                    <div className="left">
+
+                    </div>
+                    <div className="right">
                         <b>Faculty Name:</b> <span>Sandeep Uniyal</span><br />
                         <b>Teaches:</b> <span>Biology</span><br />
                         <b>Higher Qualifications:</b> <span>M.Sc(Zoology) , NET(qualified)</span><br />
