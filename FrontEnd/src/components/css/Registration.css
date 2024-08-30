@@ -71,3 +71,89 @@
   height: 5vh;
   margin: 0 auto;
 }
+
+.schoolname span{
+    font-size: 15px;
+    color: red;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .RegistrationForm {
+        width: 80vw; 
+        padding: 3vh 4vw; 
+    }
+
+    .RegistrationForm h2 {
+        font-size: 6vw; 
+    }
+
+    .RegistrationForm p {
+        font-size: 4vw; 
+    }
+
+    .inputs {
+        width: 60vw; 
+    }
+
+    .RegistrationForm::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: none;
+        opacity: 0.62;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .backto {
+        width: 30vw;
+        height: 5vh;
+    }
+
+    .schoolname span {
+        font-size: 2.5vw; 
+    }
+}
+
+@media (max-width: 599px) {
+    .RegistrationForm {
+        width: 95vw; 
+        padding: 2vh 3vw;
+    }
+    .RegistrationForm::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: none;
+        opacity: 0.62;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .RegistrationForm h2 {
+        font-size: 7vw; 
+    }
+
+    .RegistrationForm p {
+        font-size: 4.5vw; 
+    }
+
+    .inputs {
+        width: 85vw;
+    }
+
+    .backto {
+        width: 60vw;
+        height: 5.5vh;
+    }
+
+    .schoolname span {
+        font-size: 3.5vw; 
+    }
+}

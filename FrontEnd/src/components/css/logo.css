@@ -52,12 +52,14 @@
     .sun {
         height: 13vh;
         width: 8vw;
+        visibility: hidden;
     }
 
     .moon {
         height: 8vh;
         width: 6vw;
         margin-top: 5vh;
+        visibility: hidden;
     }
 
     .head {
@@ -75,12 +77,14 @@
     .sun {
         height: 14vh;
         width: 7.5vw;
+        visibility: hidden;
     }
 
     .moon {
         height: 9vh;
         width: 5.5vw;
         margin-top: 5.5vh;
+        visibility: hidden;
     }
 
     .head {

@@ -25,14 +25,8 @@ function Footer() {
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      <div className="col-md-4">
-        <h4>Follow Us</h4>
-        <ul className="list-inline">
-          <li className="list-inline-item"><a href="#"><i className="fab fa-facebook"></i></a></li>
-          <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
-          <li className="list-inline-item"><a href="#"><i className="fab fa-linkedin"></i></a></li>
-          <li className="list-inline-item"><a href="#"><i className="fab fa-instagram"></i></a></li>
-        </ul>
+      <div className="logo">
+        
       </div>
     </div>
   </div>

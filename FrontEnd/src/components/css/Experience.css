@@ -49,9 +49,9 @@
     }
 
     .carousel {
-        height: 50vh;
+        height: auto;
         width: 80vw;
-        margin: 4vh 5vw;
+        margin: 4vh auto;
     }
 }
 
@@ -75,9 +75,9 @@
     }
 
     .carousel {
-        height: 55vh;
+        height: auto;
         width: 75vw;
-        margin: 3vh 12.5vw;
+        margin: 3vh auto;
     }
 }
 
@@ -99,8 +99,8 @@
     }
 
     .carousel {
-        height: 45vh;
+        height: auto;
         width: 90vw;
-        margin: 3vh 5vw;
+        margin: 3vh auto;
     }
 }

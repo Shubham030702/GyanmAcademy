@@ -89,6 +89,7 @@ function StudentForm() {
               <option value="SGRR">SGRR</option>
               <option value="Others">Other school</option>
             </select>
+            <span>* if not mentioned click on other school and move on.</span>
           </div>
           <div className="parentPhone con">
             <label htmlFor="parentphone">Parents/Guardian's Number  :  </label>
