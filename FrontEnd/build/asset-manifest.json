@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14866f83.css",
+    "main.js": "/static/js/main.8ec517bf.js",
+    "static/css/400.f8217f06.chunk.css": "/static/css/400.f8217f06.chunk.css",
+    "static/js/400.6759b85e.chunk.js": "/static/js/400.6759b85e.chunk.js",
+    "static/css/407.ed78dd0d.chunk.css": "/static/css/407.ed78dd0d.chunk.css",
+    "static/js/407.1fae5f59.chunk.js": "/static/js/407.1fae5f59.chunk.js",
+    "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
+    "static/media/pastel-yellow-vignette-concrete-textured-background.jpg": "/static/media/pastel-yellow-vignette-concrete-textured-background.f353dbc6f146ba5eb0c6.jpg",
+    "static/media/3679984.jpg": "/static/media/3679984.2c5bade033dda3ace77c.jpg",
+    "static/media/2347520.jpg": "/static/media/2347520.64b7e29dd5c0319864a3.jpg",
+    "static/media/IMG20231228151807_01.jpg": "/static/media/IMG20231228151807_01.a875586e2ecea3124b42.jpg",
+    "static/media/logo-no-background.png": "/static/media/logo-no-background.9b08efe677f534e3524d.png",
+    "static/media/good-pic-300x286.png": "/static/media/good-pic-300x286.7858092f098aa625a15a.png",
+    "static/media/full-moon.png": "/static/media/full-moon.0b2afe541c822ed527e5.png",
+    "static/media/sun.png": "/static/media/sun.6d48da504f4816188c8d.png",
+    "index.html": "/index.html",
+    "main.14866f83.css.map": "/static/css/main.14866f83.css.map",
+    "main.8ec517bf.js.map": "/static/js/main.8ec517bf.js.map",
+    "400.f8217f06.chunk.css.map": "/static/css/400.f8217f06.chunk.css.map",
+    "400.6759b85e.chunk.js.map": "/static/js/400.6759b85e.chunk.js.map",
+    "407.ed78dd0d.chunk.css.map": "/static/css/407.ed78dd0d.chunk.css.map",
+    "407.1fae5f59.chunk.js.map": "/static/js/407.1fae5f59.chunk.js.map",
+    "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14866f83.css",
+    "static/js/main.8ec517bf.js"
+  ]
+}
