@@ -62,13 +62,6 @@
     backdrop-filter: blur(5px);
 }
 
-.pic1 {
-    background-image: url("../Images/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
-}
-
-.pic2, .pic3, .pic4, .pic5, .pic6 {
-    background-image: url("https://images.pexels.com/photos/1386604/pexels-photo-1386604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-}
 
 .homesubjects {
     display: grid;
