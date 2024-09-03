@@ -43,7 +43,7 @@ function StudentForm() {
     e.preventDefault();
     console.log(formData);
     try {
-      const response = await axios.post('http://localhost:3000/api/register', formData);
+      const response = await axios.post('https://gyanmacademy.onrender.com/api/register', formData);
       setSubmitted(true);
       alert('Registration successful');
     } catch (error) {
