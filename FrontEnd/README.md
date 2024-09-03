@@ -1,2 +1,2 @@
 # GyanmAcademy
-This is a react js project for an academy 
+This is a Mern Website for an academy 
