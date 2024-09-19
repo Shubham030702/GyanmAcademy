@@ -199,7 +199,7 @@ span {
         margin-top: 0;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 12vh;
+        margin-bottom: 25vh;
         display: grid;
         grid-template-columns: auto auto;
     }
