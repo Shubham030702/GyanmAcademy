@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1702b313.css",
+    "main.css": "/static/css/main.73d35c19.css",
     "main.js": "/static/js/main.40c77f5b.js",
     "static/css/400.e0ffe0a7.chunk.css": "/static/css/400.e0ffe0a7.chunk.css",
     "static/js/400.e05bb759.chunk.js": "/static/js/400.e05bb759.chunk.js",
     "static/css/407.c4de570e.chunk.css": "/static/css/407.c4de570e.chunk.css",
     "static/js/407.a1bbbc50.chunk.js": "/static/js/407.a1bbbc50.chunk.js",
     "static/js/787.0f8d78ff.chunk.js": "/static/js/787.0f8d78ff.chunk.js",
-    "static/media/pastel-yellow-vignette-concrete-textured-background.jpg": "/static/media/pastel-yellow-vignette-concrete-textured-background.f353dbc6f146ba5eb0c6.jpg",
     "static/media/3679984.jpg": "/static/media/3679984.2c5bade033dda3ace77c.jpg",
     "static/media/2347520.jpg": "/static/media/2347520.64b7e29dd5c0319864a3.jpg",
     "static/media/IMG20231228151807_01.jpg": "/static/media/IMG20231228151807_01.a875586e2ecea3124b42.jpg",
@@ -16,7 +15,7 @@
     "static/media/full-moon.png": "/static/media/full-moon.0b2afe541c822ed527e5.png",
     "static/media/sun.png": "/static/media/sun.6d48da504f4816188c8d.png",
     "index.html": "/index.html",
-    "main.1702b313.css.map": "/static/css/main.1702b313.css.map",
+    "main.73d35c19.css.map": "/static/css/main.73d35c19.css.map",
     "main.40c77f5b.js.map": "/static/js/main.40c77f5b.js.map",
     "400.e0ffe0a7.chunk.css.map": "/static/css/400.e0ffe0a7.chunk.css.map",
     "400.e05bb759.chunk.js.map": "/static/js/400.e05bb759.chunk.js.map",
@@ -25,7 +24,7 @@
     "787.0f8d78ff.chunk.js.map": "/static/js/787.0f8d78ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1702b313.css",
+    "static/css/main.73d35c19.css",
     "static/js/main.40c77f5b.js"
   ]
 }
