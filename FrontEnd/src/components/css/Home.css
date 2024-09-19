@@ -196,11 +196,15 @@ span {
     .banner {
         height: 40vh;
         width: 93vw;
-        margin: 0vh 0vw;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 12vh;
         display: grid;
         grid-template-columns: auto auto;
     }
-
+        
+        
     .right h3 {
         font-size: 1.2rem;
     }
