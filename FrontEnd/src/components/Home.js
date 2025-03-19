@@ -48,17 +48,6 @@ function Home() {
                     <span className='boards'><b>Respective Boards:</b> CBSE , ICSE , Uttarakhand(UK)</span>
                 </div>
             </div>
-            <div className="Interactive">
-                <h1>Interactive Classes</h1>
-            </div>
-            <div className="Imgslide">
-                <div className="pic pic1" ></div>
-                <div className="pic pic2" ></div>
-                <div className="pic pic3" ></div>
-                <div className="pic pic4" ></div>
-                <div className="pic pic5" ></div>
-                <div className="pic pic6" ></div>
-            </div>
         </>
     )
 }
