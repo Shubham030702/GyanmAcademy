@@ -92,6 +92,7 @@
 
 .logo{
   background-image: url("../Images/logo-no-background.png");
+  margin-right: 0;
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -144,4 +145,8 @@
   .bottom-bar p {
       font-size: 12px;
   }
+}
+
+.row{
+  justify-content: space-around;
 }
