@@ -1,0 +1,21 @@
+.loader {
+    background: url("../Images/sun.png");
+    height: 20vh;
+    width: 20vh;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 10vh;
+    background-size: cover;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.waiting{
+    font-family:cursive;
+    font-weight: bolder;
+    text-align: center;
+}

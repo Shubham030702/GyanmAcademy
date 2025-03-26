@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './css/Registration.css'
 import axios from 'axios';
+import Loader from "./Loader"
+
 function StudentForm() {
   const [formData, setFormData] = useState({
     fullName: '',
@@ -11,7 +13,7 @@ function StudentForm() {
     Personal_phone: '',
     Personal_Address: '',
   });
-
+  const [loading,setloading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
@@ -41,6 +43,7 @@ function StudentForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setloading(true);
     console.log(formData);
     try {
       const response = await axios.post('https://gyanmacademy.onrender.com/api/register', formData);
@@ -49,6 +52,8 @@ function StudentForm() {
     } catch (error) {
       console.error('Error during registration:', error);
       alert('Error during registration. Please try again.');
+    }finally{
+      setloading(false);
     }
   };
   const backto = () => {
@@ -66,6 +71,9 @@ function StudentForm() {
   }
   return (
     <div className='RegistrationForm'>
+      {loading ? (<Loader/>):
+      (
+      <>
       <h2>Register Yourself</h2>
       {submitted ? (
         <div>
@@ -158,6 +166,8 @@ function StudentForm() {
           <button type="submit">Submit</button>
         </form>
       )}
+      </>
+    )}
     </div>
   );
 }

@@ -17,13 +17,7 @@ function Footer() {
         </p>
       </div>
       <div className="col-md-4">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+
       </div>
       <div className="logo">
         
