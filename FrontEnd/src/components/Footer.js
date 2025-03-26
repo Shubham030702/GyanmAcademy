@@ -16,9 +16,6 @@ function Footer() {
           Email: amituniyal10@gmail.com
         </p>
       </div>
-      <div className="col-md-4">
-
-      </div>
       <div className="logo">
         
       </div>
